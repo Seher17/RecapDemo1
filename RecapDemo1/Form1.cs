@@ -12,7 +12,7 @@ namespace RecapDemo1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Button[,] buttons = new Button[8,8];
+            Button[,] buttons = new Button[9,9];
             int top = 0;
             int left = 0;
             for (int i = 0; i < buttons.GetUpperBound(0); i++)
